@@ -4,6 +4,7 @@ let startRoutine;
 let sproutBtnSize = 30;
 let sproutIcon;
 let pointIcon, textIcon, lineIcon, rectangleIcon, triangleIcon, ellipseIcon, circleIcon, arcIcon;
+/*
 let blockPrompts = [
 	'0.png',
 	'1.png',
@@ -11,7 +12,7 @@ let blockPrompts = [
 	'3.png',
 	'4.png',
 	]
-	
+	*/
 introPrompts = [
 'lineSquare.png', // intro
 'circleCenter.png',
@@ -19,7 +20,7 @@ introPrompts = [
 'ovalMouse.png',
 'randomCircles.png',
 	]
-	
+	/*
 hardPrompts = [
 	'stripe.png',
    'psych.png',
@@ -41,7 +42,7 @@ hardPrompts = [
 	'posterize.png',
 	'threshold.png'
 ];
-
+*/
 // --- Global State ---
 let UI = {};
 let toolbox = [];
