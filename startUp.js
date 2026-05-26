@@ -4,7 +4,7 @@ function preload() {
 	  for (let name of names) {
     window[name] = loadImage(name + '.png');
   }
-promptImages = introPrompts // random([hardPrompts, blockPrompts, 
+promptImages = blockPrompts // random([hardPrompts, blockPrompts, 
 	
   for (let i = 0; i < promptImages.length; i++) {
     prompts.push(loadImage(promptImages[i]))
