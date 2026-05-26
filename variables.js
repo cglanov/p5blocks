@@ -13,7 +13,7 @@ let blockPrompts = [
 	'4.png',
 	]
 	
-introPrompts = [
+let introPrompts = [
 'lineSquare.png', // intro
 'circleCenter.png',
 'cornerLine.png',
@@ -21,7 +21,7 @@ introPrompts = [
 'randomCircles.png',
 	]
 	
-hardPrompts = [
+let hardPrompts = [
 	'stripe.png',
    'psych.png',
 	'falling.png', 
