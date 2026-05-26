@@ -42,7 +42,7 @@ hardPrompts = [
 	'posterize.png',
 	'threshold.png'
 ];
-*/
+
 // --- Global State ---
 let UI = {};
 let toolbox = [];
