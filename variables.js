@@ -5,7 +5,7 @@ let sproutBtnSize = 30;
 let sproutIcon;
 let pointIcon, textIcon, lineIcon, rectangleIcon, triangleIcon, ellipseIcon, circleIcon, arcIcon;
 
-let blockPrompts = [
+let imagePrompts = [
 	'0.png',
 	'1.png',
 	'2.png',
