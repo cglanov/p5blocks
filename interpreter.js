@@ -135,7 +135,7 @@ function* runInterpreter(node) {
     case 'ellipse':  artCanvas.ellipse(resolve(node.args[0]), resolve(node.args[1]), resolve(node.args[2]), resolve(node.args[3])); break;
     case 'rect':     artCanvas.rect(resolve(node.args[0]), resolve(node.args[1]), resolve(node.args[2]), resolve(node.args[3])); break;
     case 'line':     artCanvas.line(resolve(node.args[0]), resolve(node.args[1]), resolve(node.args[2]), resolve(node.args[3])); break;
-    case 'arc':      artCanvas.arc(resolve(node.args[0]), resolve(node.args[1]), resolve(node.args[2]), resolve(node.args[3]), resolve(node.args[4]), resolve(node.args[5]), OPEN); break;
+    case 'arc':      artCanvas.arc(resolve(node.args[0]), resolve(node.args[1]), resolve(node.args[2]), resolve(node.args[3]), resolve(node.args[4]), resolve(node.args[5]), PIE); break;
     case 'triangle': artCanvas.triangle(resolve(node.args[0]), resolve(node.args[1]), resolve(node.args[2]), resolve(node.args[3]), resolve(node.args[4]), resolve(node.args[5])); break;
     case 'text':     artCanvas.text(resolve(node.args[0]), resolve(node.args[1]), resolve(node.args[2])); break;
 	 case 'translate': artCanvas.translate(resolve(node.args[0]), resolve(node.args[1])); break;
